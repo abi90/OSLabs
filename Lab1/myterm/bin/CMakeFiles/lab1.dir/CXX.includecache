@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abi/icom5007/lab1/myterm/src/command.cxx
+command.h
+/home/abi/icom5007/lab1/myterm/src/command.h
+iostream
+-
+boost/xpressive/xpressive.hpp
+-
+unistd.h
+-
+sys/wait.h
+-
+
+/home/abi/icom5007/lab1/myterm/src/command.h
+string
+-
+vector
+-
+
